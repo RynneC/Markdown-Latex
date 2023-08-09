@@ -385,21 +385,23 @@ y = a_0x^n + a_1x^{n-1} + a_2x^{n-2} + \cdots+a_n,\quad \text{$a_0, a_1,a_2,\cdo
 
 ### 2.5.1 Trigonometric function(trig function, 三角函数)
 
-|           Function           |         Code (+$$)         |
-| :--------------------------: | :------------------------: |
-|       $\sin 30^\circ$        |       \sin 30^\circ        |
-|       $\cos 30^\circ$        |       \cos 30^\circ        |
-|       $\tan 30^\circ$        |       \tan 30^\circ        |
-|       $\cot 30^\circ$        |       \cot 30^\circ        |
-|       $\sec 30^\circ$        |       \sec 30^\circ        |
-|       $\csc 30^\circ$        |       \csc 30^\circ        |
-|    $arctan{\frac{1}{2}}$     |    arctan{\frac{1}{2}}     |
-| $arccot{\frac{\sqrt{3}}{3}}$ | arccot{\frac{\sqrt{3}}{3}} |
-|         $arcsin{1}$          |         arcsin{1}          |
-|         $arccos{0}$          |         arccos{0}          |
-|           $\angle$           |           \angle           |
-|            $\bot$            |            \bot            |
-|            $\bot$            |            \bot            |
+|           Function            |         Code (+$$)          |
+| :---------------------------: | :-------------------------: |
+|       $ \sin 30^\circ$        |        \sin 30^\circ        |
+|        $\cos 30^\circ$        |        \cos 30^\circ        |
+|        $\tan 30^\circ$        |        \tan 30^\circ        |
+|        $\cot 30^\circ$        |        \cot 30^\circ        |
+|        $\sec 30^\circ$        |        \sec 30^\circ        |
+|        $\csc 30^\circ$        |        \csc 30^\circ        |
+|     $arctan{\frac{1}{2}}$     |     arctan{\frac{1}{2}}     |
+| $arccot{\frac{\sqrt{3}}{3}}$  | arccot{\frac{\sqrt{3}}{3}}  |
+|          $arcsin{1}$          |          arcsin{1}          |
+|          $arccos{0}$          |          arccos{0}          |
+|           $\angle$            |           \angle            |
+|            $\bot$             |            \bot             |
+| $\mathop{\frown}\limits_{AB}$ | \mathop{\frown}\limits_{AB} |
+|          $\parallel$          |          \parallel          |
+|          $\triangle$          |          \triangle          |
 
 ### 2.5.2 Logarithmic function
 
@@ -453,27 +455,62 @@ $$
 |        $\lim^{x \to \infty}_{y \to 0}{\frac{x}{y}}$        |        \lim^{x \to \infty}_{y \to 0}{\frac{x}{y}}        |
 |       $\displaystyle \lim_{x \to \infty}{1 \over x}$       |       \displaystyle \lim_{x \to \infty}{1 \over x}       |
 | $\displaystyle \lim^{x \to \infty}_{y \to 0}{\frac{x}{y}}$ | \displaystyle \lim^{x \to \infty}_{y \to 0}{\frac{x}{y}} |
+|           $a \sim 1$ (equivalent infinitesimal)            |                         a \sim 1                         |
 
 ### 2.7.2 Derivative and Differentiation 导数与微分
 
 | Operator | Code (+$$) |
 | :------: | :----------------------------------------------------------: |
-| $y\prime$ | y\prime |
-| $\displaystyle \frac{dy}{dx}$ | \displaystyle \frac{dy}{dx} |
-| $\dfrac{\partial f}{\partial x}$ | \dfrac{\partial f}{\partial x} |
-| $\frac{du}{dx}\vert _{x=0}$ | \frac{du}{dx}\vert _{x=0} |
-| $\dot{a}$ (Derivative of a, 第三种表述方式) | \dot{a} |
-| $a \sim 1$ (equivalent infinitesimal) | a \sim 1 |
+| $y\prime$ (Derivative of y, **Lagrange's notation**) | y\prime |
+| $\displaystyle \frac{dy}{dx}$ (Derivative of y, **Leibniz's notation**) | \displaystyle \frac{dy}{dx} |
+|      $\dot{y}$ (Derivative of y, **Newton's notation**)      |                           \dot{y}                            |
+| $\displaystyle \left. \frac{dy}{dx} \right\vert_{x=0} $ (derivative of y over x at x=0) |     \displaystyle \left. \frac{dy}{dx} \right\vert_{x=0}     |
+| $\displaystyle \left. \frac{\partial f}{\partial x} \right\vert_{x=0} $ (Partial derivative of f over x at x=0 ) | \displaystyle \left. \frac{\partial f}{\partial x} \right\vert_{x=0} |
+| $\displaystyle \left. \frac{d^2y}{dx^2} \right\vert_{x=0}$ (second derivative of y over x at x=0) | $\displaystyle \left. \frac{d^2y}{dx^2} \right\vert_{x=0} |
+| $\displaystyle \left. \frac{\partial ^2f}{\partial x^2} \right\vert_{x=0}$ (second partial derivative of y over x at x=0) | \displaystyle \left. \frac{\partial ^2f}{\partial x^2} \right\vert_{x=0} |
 
 ### 2.7.3 Definite and Indefinite Integrals
 
-|        Operation         |          Code          |
-| :----------------------: | :--------------------: |
-| $\int^{\infty}_{0}{xdx}$ | \int^{\infty}_{0}{xdx} |
-|       $\int{xdx}$        |       \int{xdx}        |
-|       $\iint{xdx}$       |       \iint{xdx}       |
-|      $\iiint{xdx}$       |      \iiint{xdx}       |
-|         $\oint$          |         \oint          |
+|          Operation          |          Code          |
+| :-------------------------: | :--------------------: |
+|  $\int^{\infty}_{0}{xdx}$   | \int^{\infty}_{0}{xdx} |
+|         $\int{xdx}$         |       \int{xdx}        |
+|  $\iint$ (Double integral)  |         \iint          |
+| $\iiint$ (Triple integral)  |         \iiint         |
+|  $\oint$ (Curve integral)   |         \oint          |
+| $\oiint$ (Surface integral) |         \oiint         |
+| $\oiiint$ (Volume integral) |        \oiiint         |
+
+### 2.7.5 Vector Calculus
+
+
+
+### 2.7.6 Asymtotic behavior (渐进性)
+
+|                     Articles with usage                      |    LaTeX    |
+| :----------------------------------------------------------: | :---------: |
+| [Asymptotic analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis) |    \sim     |
+| [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) |      o      |
+|                        `\mathcal{O}`                         | \mathcal{O} |
+|                           `\Theta`                           |   \Theta    |
+|                           `\Omega`                           |   \Omega    |
+|                           `\omega`                           |   \omega    |
+
+
+
+### 2.7.7 Sequences and series(序列与级数)
+
+|                          Operation                           |                      Code                      |
+| :----------------------------------------------------------: | :--------------------------------------------: |
+| $\displaystyle \sum_{i=0}^{n} \sum_{j=0}^{m} ij$ (summation of i from 0 to n and ) | \displaystyle \sum_{i=0}^{n} \sum_{j=0}^{m} ij |
+
+In $\displaystyle \sum_{i=m}^{n} a_i $, the summation symbol is the enlarged form of the upright capital Greek letter **sigma**, where ***i*** is the **index of summation**; **$a_i$** is an indexed variable representing each term of the sum; *m* is the **lower bound of summation**, and *n* is the **upper bound of summation**. 
+
+This is read as **"sum of $a_i$, from *i* = *m* to *n*".**
+
+|                          Operation                           |                      Code                      |
+| :----------------------------------------------------------: | :--------------------------------------------: |
+| $\displaystyle \sum_{i=0}^{n} \sum_{j=0}^{m} ij$ (summation of i from 0 to n and ) | \displaystyle \sum_{i=0}^{n} \sum_{j=0}^{m} ij |
 
 ## 2.8 Linear Algebra
 
@@ -598,7 +635,7 @@ $$
 | :---------------------------------------------------------: | :-----------------: |
 |                  $a \mid b$ (a divides b)                   |      a \mid b       |
 |                       $a \not\mid b$                        |    a \not\mid b     |
-|                       $\dbinom{n}{k}$                       |   $\dbinom{n}{k}$   |
+|                       $\dbinom{n}{k}$                       |    \dbinom{n}{k}    |
 |                        ${n\brace k}$                        |     {n\brace k}     |
 |                       $\widehat{abc}$                       |   \widetilde{abc}   |
 |       $gcd(x,y)$ (greatest common divider of a and b)       |      gcd(x,y)       |
@@ -640,7 +677,7 @@ $$
 |       $A \bigoplus B$ (Exclusive or, 异或)       |    A \bigoplus B    |
 |    $p \equiv q$ (the equivalence of p and q)     |     p \equiv q      |
 
-## 2.12 Set Operators(集合运算符)
+## 2.12 Set Theory(集合论)
 
 |                           Operator                           |              Code(+$$)              |
 | :----------------------------------------------------------: | :---------------------------------: |
@@ -662,7 +699,19 @@ $$
 |                 $\emptyset$ (emptyset, 空集)                 |              \emptyset              |
 |                        $\varnothing$                         |             \varnothing             |
 
-## 2.13 Other Special Symbols
+## 2.13 Number Sets(数集)
+
+|    $\mathbb{A}$ (Algebraic number)     | \mathbb{A} |
+| :------------------------------------: | :--------: |
+|      $ \Complex$ (Complex number)      |  \Complex  |
+|   $\mathbb{H}$ (Quaternion, 四元数)    | \mathbb{H} |
+| $\mathbb{N}$ (Natrual number, 自然数)  | \mathbb{N} |
+| $\mathbb{Q}$ (Rational number, 有理数) | \mathbb{Q} |
+|   $ \mathbb{R}$ (Real number, 实数)    | \mathbb{R} |
+|   $\mathbb{S}$ (Sedenion, 十六元数)    | \mathbb{S} |
+|      $\mathbb{Z}$ (Integer, 整数)      | \mathbb{Z} |
+
+## 2.14 Other Special Symbols
 
 |              Symbol               |            Code(+$$)            |
 | :-------------------------------: | :-----------------------------: |
